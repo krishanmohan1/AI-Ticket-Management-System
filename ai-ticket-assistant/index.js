@@ -34,4 +34,4 @@ mongoose
     console.log("MongoDB connected ✅");
     app.listen(PORT, () => console.log("🚀 Server at http://localhost:3000"));
   })
-  .catch((err) => console.error("❌ MongoDB error: ", err)); 
+  .catch((err) => console.error("❌ MongoDB error: ", err));
